@@ -1,0 +1,22 @@
+{
+  "name": "iis-ftp",
+  "version": "1.0.0",
+  "description": "node-iis-ftp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbc8141/node-iis-ftp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbc8141/node-iis-ftp/issues"
+  },
+  "homepage": "https://github.com/hbc8141/node-iis-ftp#readme",
+  "dependencies": {
+    "edge-js": "^18.4.2"
+  }
+}
