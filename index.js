@@ -19,3 +19,5 @@ dllLib.ftp = edge.func({
     typeName: 'Ftp.Ftp',
     methodName: 'AddFtp'
 })
+
+module.exports = dllLib
