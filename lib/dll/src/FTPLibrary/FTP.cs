@@ -68,7 +68,7 @@ namespace FTPLibrary
         /// <param name="siteName">사이트이름</param>
         /// <param name="role">유저명</param>
         /// <returns></returns>
-        private static void AddRole(string siteName, string role)
+        public static void AddRole(string siteName, string role)
         {
             using (ServerManager serverManager = new ServerManager())
             {
