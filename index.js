@@ -16,8 +16,8 @@ const dllLib = {};
  */
 dllLib.ftp = edge.func({
     assemblyFile: dllPath,
-    typeName: 'FTPLibrary.Ftp',
-    methodName: 'AddFtp'
+    typeName: 'FTPLibrary.Startup',
+    methodName: 'CreateFtpAsync'
 })
 
 module.exports = dllLib
