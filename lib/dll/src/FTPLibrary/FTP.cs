@@ -3,8 +3,8 @@ using System;
 
 namespace FTPLibrary
 {
-    public class FTP
-    {
+	public class FTP
+	{
         /// <summary>
         /// FTP 추가
         /// </summary>
@@ -64,7 +64,8 @@ namespace FTPLibrary
 
                     IsSuccess = AddRole(siteName, role);
                 }
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 throw e;
             }
@@ -99,7 +100,8 @@ namespace FTPLibrary
 
                     return true;
                 }
-            } catch(Exception e)
+            }
+            catch (Exception e)
             {
                 throw e;
             }
